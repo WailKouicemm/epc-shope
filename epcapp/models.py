@@ -24,7 +24,7 @@ class Processeur(models.Model):
     Number = models.CharField(max_length=20)
     vitesse = models.CharField(max_length=20)
     def __str__(self):
-        return str(self.Name)+" "+str(self.Number)+" "+ str(self.vitesse)+"GHZ"
+        return str(self.Name)+" "+str(self.Number)+" "+ str(self.vitesse)+"GHZ_wail"
 
 
 
