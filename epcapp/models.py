@@ -7,7 +7,7 @@ class Ram(models.Model):
     gb = models.IntegerField()
     Type = models.CharField(max_length=20)
     def __str__(self):
-        return str(self.gb)+' GB'+ str(self.Type) 
+        return str(self.gb)+' GB_wail'+ str(self.Type) 
 
 
 
